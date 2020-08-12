@@ -1,2 +1,2 @@
-FROM alpine:latest as prod
+FROM centos:latest as prod
 RUN yum install -y openssh git nano
